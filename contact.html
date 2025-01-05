@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Exclusive E-Commerce Website</title>
+  </head>
+  <body>
+    <div class="top_nav">
+      <div class="container top_nav_container">
+        <div class="top_nav_wrapper">
+          <p class="tap_nav_p">
+            Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!
+          </p>
+          <a href="#" class="top_nav_link">SHOP NOW</a>
+        </div>
+      </div>
+    </div>
+    <nav class="nav">
+      <div class="container nav_container">
+        <a href="/index.html" class="nav_logo">EXCLUSIVE</a>
+        <ul class="nav_list">
+          <li class="nav_item"><a href="/index.html" class="nav_link">Home</a></li>
+          <li class="nav_item"><a href="./about.html" class="nav_link">About</a></li>
+          <li class="nav_item"><a href="./contact.html" class="nav_link">Contact</a></li>
+          <li class="nav_item">
+            <a href="./sign-up.html" class="nav_link">Sign up</a>
+          </li>
+        </ul>
+        <div class="nav_items">
+          <form action="#" class="nav_form">
+            <input
+              type="text"
+              class="nav_input"
+              placeholder="search here...." />
+            <img src="./image/search.png" alt="" class="nav_search" />
+          </form>
+          <img src="./image/heart.png" alt="" class="nav_heart" />
+          <a href="/cart.html">
+            <img src="./image/cart.png" alt="" class="nav_cart" />
+          </a>
+        </div>
+        <span class="hamburger">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6">
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
+        </span>
+      </div>
+    </nav>
+    <nav class="mobile_nav mobile_nav_hide">
+      <ul class="mobile_nav_list">
+        <li class="mobile_nav_item">
+          <a href="/" class="mobile_nav_link">Home</a>
+        </li>
+        <li class="mobile_nav_item">
+          <a href="#" class="mobile_nav_link">About</a>
+        </li>
+        <li class="mobile_nav_item">
+          <a href="#" class="mobile_nav_link">Contact</a>
+        </li>
+        <li class="mobile_nav_item">
+          <a href="/sign-up.html" class="mobile_nav_link">Sign Up</a>
+        </li>
+        <li class="mobile_nav_item">
+          <a href="/cart.html" class="mobile_nav_link">Cart</a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+        <section class="contact-intro">
+          <div class="container">
+            <h1>Contact Us</h1>
+            <p>We’re here to help! Reach out to us via any of the methods below, or fill out the contact form and we’ll get back to you shortly.</p>
+          </div>
+        </section>
+    
+        <section class="contact-details">
+          <div class="container">
+            <h2>Get in Touch</h2>
+            <div class="contact-info">
+              <p><strong>Email:</strong> <a href="mailto:support@exclusive-ecommerce.com">support@exclusive-ecommerce.com</a></p>
+              <p><strong>Phone:</strong> +1 (123) 456-7890</p>
+              <p><strong>Address:</strong> 1234 Market Street, Suite 567, New York, NY 10001</p>
+              <p><strong>Social Media:</strong></p>
+              <ul class="social-links">
+                <li><a href="#" target="_blank">Facebook</a></li>
+                <li><a href="#" target="_blank">Instagram</a></li>
+                <li><a href="#" target="_blank">Twitter</a></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+    
+        <section class="contact-form-section">
+          <div class="container">
+            <h2>Send Us a Message</h2>
+            <form action="/submit-contact-form" method="POST" class="contact-form">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" placeholder="Enter your name" required />
+    
+              <label for="email">Your Email</label>
+              <input type="email" id="email" name="email" placeholder="Enter your email" required />
+    
+              <label for="message">Your Message</label>
+              <textarea id="message" name="message" placeholder="Enter your message" rows="5" required></textarea>
+    
+              <button type="submit" class="btn-submit">Send Message</button>
+            </form>
+          </div>
+        </section>
+    
+        <section class="location-map">
+          <div class="container">
+            <h2>Our Location</h2>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.8354345093645!2d-122.41941548468233!3d37.77492977975988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858064e9e05c23%3A0x7ecb4f0b6a8db8d4!2sMarket%20Street%2C%20San%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1619185256487!5m2!1sen!2sus"
+              width="100%"
+              height="300"
+              style="border:0;"
+              allowfullscreen=""
+              loading="lazy"></iframe>
+          </div>
+        </section>
+      </main>
+    
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
